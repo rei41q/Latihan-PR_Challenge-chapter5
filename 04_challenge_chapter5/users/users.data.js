@@ -37,4 +37,4 @@ const updateUsers = (req, res) =>{
 const deleteUsers = (req, res) =>{
     return res.send('Delete users');
 };
-module.exports = {userList, getUsers, createUsers, readUsers, updateUsers, deleteUsers};
+module.exports = {userList,getUsers, createUsers, readUsers, updateUsers, deleteUsers};
