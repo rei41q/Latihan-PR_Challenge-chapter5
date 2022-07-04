@@ -12,7 +12,7 @@ userRouter.post('/login', (req,res)=> { // LOGIN
     id =  req.body['id'];
     nama =  req.body['nama'];
     password = req.body['password'];
-    for(let i = 0 ; i<userList.length ; i++){
+    for(let i = 0 ; i<userList.length ; i++){ 
         if(userList[i].id == id && userList[i].nama == nama && userList[i].password == password){
           res.status (200);
           return res.json({
@@ -34,7 +34,7 @@ userRouter.post('/login', (req,res)=> { // LOGIN
 //     return res.send("berhasil daftar akun")
 //   });
 
-  userRouter.get('/login/list', (req,res)=> { // LIST SEMUA YG SDH DIDAFTARKAN
+  userRouter.get('/users/list', (req,res)=> { // LIST SEMUA YG SDH DIDAFTARKAN
     return res.json(userList);
   })
 
