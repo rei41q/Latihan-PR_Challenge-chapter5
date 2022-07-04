@@ -1,0 +1,602 @@
+body{
+    margin: 0;
+    background-image: url("./assets/main-bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+    color: white;
+    padding: 0;
+
+}
+
+a{
+    color: white;
+   text-decoration: none;
+}
+nav{
+    
+    padding: 4px 0px 25px 0px;
+    background: rgb(0, 0, 0, 0.5);
+    width: 100%;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+ 
+
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+   
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+   
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(255, 255, 255, 0.1);
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.603);
+   
+    z-index: 3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: 1px solid rgba(122, 184, 255, 0.078);
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.253)
+  }
+  .dropdown{
+      visibility: hidden;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.list ul li{
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    
+}
+
+.logo{
+    padding-left: 20px;
+    height: 1px;
+}
+.me{
+    margin-left: 26%;
+    height: 1px;
+ 
+
+}
+.daftar{
+   float: right;
+   padding-right: 80px;
+
+}
+.post{
+    color: white;
+    margin: 140px 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.play{
+    font-size: 30px;
+}
+.new{
+    font-size: 13px;;
+}
+button{
+    margin-top: 40px;
+    border: 0px;
+    background-color: rgb(218, 165, 32);
+    padding: 5px 80px 5px 80px;
+    font-size: 24px;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    
+}
+button:active{
+    opacity: 0.6;
+    
+}
+@media only screen and (max-width: 790px) {
+
+    .list ul li {
+      width: 90%;
+      
+    }
+    nav{
+        padding-bottom: 67px;
+    }
+    .me{
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+        
+    }
+    .daftar{
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+   
+    }
+    .logo{
+        font-size: 43px;
+        float: left;
+    }
+    .dropdown{
+        visibility: visible;
+        float:right;
+        padding: 0;
+        margin: 0;
+        margin-right: 25px;
+        margin-top: 15px;
+    }
+
+  }
+  
+  
+  
+#hz2 {
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    background-image: url('./assets/the-games-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    width: 100%;
+    position: absolute;
+
+  }
+  .gambar{
+    background: url('./assets/rockpaperstrategy-1600.jpg');
+    background-size: 100% 100%;
+    height: 50%;
+    width: 50%;
+    /* margin-top: -50px;
+    margin-left: 300px; */
+
+    margin-left: 35%;
+    margin-top: 125px;
+    position: absolute;
+}
+
+
+   .bulat{
+      padding-top: 300px;
+      padding-left: 35%;
+      height: 1vw;
+
+  } 
+
+  
+.text2{
+  display: inline-block;
+}
+.what{
+    
+    margin-top: 90px;
+    margin-left: 10%;
+    position: absolute;
+    font-size: 2vw;
+}
+.the{
+    margin-top: 120px;
+    font-size: 4vw;
+    margin-left: 10%;
+    position: absolute;
+}
+ .sleft{
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 300px;
+    margin-right: 25%;
+    
+}
+.sright{
+
+    margin-left: 88%;
+    position: absolute;
+    margin-top: 300px;
+    
+} 
+.story{
+    margin: 130px 0px 0px 0px;
+}
+/* @media only screen and (max-width: 1100px){
+
+    .gambar{
+        
+    }
+}
+   */
+#hz3{
+    background-image: url("./assets/features.jpg");
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 650px;
+    width: 100%;
+    position: absolute;
+}
+
+.text11{
+    font-size: 20px;
+    margin-left: 45%;
+    
+}
+
+.text22{
+    font-size: 50px;
+    margin-left: 45%;
+    position: absolute;
+ 
+}
+.post2{
+    font-size: 3.8vmin;
+    margin-left: 55%;
+    margin-top: 100px;
+    position: absolute;
+}
+.post3{
+    font-size: 20px;
+    margin-left: 55%;
+    margin-top: 232px;    
+    position: absolute;
+}
+/* tz */
+.garis1{
+    border-left: 3px solid white;
+    height: 128px;
+
+    margin-left: 42%; 
+    top: 30px;
+    position: absolute;
+ }
+
+#hz4{
+    background-image: url("./assets/requirements.png");
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top : 1280px;
+  width: 100%;
+    position: absolute;
+}
+#hz5{
+    background-image: url("./assets/top-score-bg.png");
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top :1930px;
+    width: 100%;
+    position: absolute;
+}
+
+.bulath3{
+    margin-top: 100px;
+    margin-left: 50%;
+    position: absolute;
+}
+.bulatpenuh1h3{
+    margin-top: 26px;
+    margin-bottom: 110px;
+  
+}
+.bulat2h3{
+    margin-bottom: 22px;
+}
+
+#hz4{
+ position: absolute;
+}
+.p1h4{
+    font-size: 18-px;
+    text-align: center;
+}
+.s1h4{
+    margin-top: 30px;
+    font-size: 50px;
+    width: 30px;
+}
+h1{
+    color: orange;
+}
+.data1{
+    
+ 
+  
+    background: rgb(25, 24, 23);
+    border-radius: 10px;
+    margin-left: 70%;;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+
+    
+
+}
+.b1{
+    background: url("./assets/ellipse-orange.png");
+    background-size: 100% 100%;
+    height: 3.5vw;
+    width: 3.5vw;
+    background-repeat: no-repeat;
+    margin-left: 3%;
+    position:absolute;
+    margin-top: 5px;
+    
+}
+.gambardata1{
+    background: url("./assets/evan-lahti.jpg");
+   height: 3.5vw;
+   width: 3.5vw;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  
+    border-radius: 40px;
+    margin-left: -20%;
+
+    position: absolute;
+    margin-top: -2px;
+}
+
+
+.b2{
+    background: url("./assets/ellipse-orange.png");
+   background-size: 100% 100%;
+   width: 50px;
+   height: 50px;
+    background-repeat: no-repeat;
+    margin-left: 38%;
+    position:absolute;
+    margin-top: 20px;
+    
+}
+
+.t1{
+   position:relative;
+   margin-top: -10px;
+
+}
+.evan1{
+    color: orange;
+    margin-left: 30%
+            ;font-size:2vw;display:inline; margin-top: 20px;font-weight: lighter;
+
+}
+.evan2{
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 30%;
+}
+.evan3{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 3vmin;
+    width: 80%;
+    display: block;
+}
+.evan4{
+    margin-top: 30px;
+    color:darkgray;
+    margin-left: 10%;
+    font-size: 1vw;
+
+}
+.jada1{
+    color: orange;
+   margin-left: 50%;
+   font-size:2vw;display:inline; 
+   margin-top: 20px;font-weight: lighter;
+}
+.jada2{
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 50%;
+}
+.jada3{
+    color: white;
+    margin-top: 40px;
+    margin-left: 10%;
+    font-size: 15px;
+    width: 100%;
+ 
+}
+.jada4{
+    margin-top: 10px;
+    color:darkgray;
+    margin-left: 10%;
+    font-size: 1.5vw;
+}
+.t1{
+    margin-left: 80%;
+}
+.t2{
+    margin-left: 80%;
+}
+.t3{
+    margin-left: 80%;
+}
+
+.hz5text{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 10%;
+    
+}
+.button2{
+    font-weight: bold;
+    height : 50px;
+    font-size: 16px;
+    width: 240px;
+    min-width: 100px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+@media only screen and (max-width:480px){
+    .button2{
+        width: 30px;
+    }
+}
+.texth51{
+    font-size: 4vw;
+}
+.texth52{
+    margin-top: 26px;
+  width: 60%;
+  position: relative;
+}
+.gambarhz5{
+    margin-left: 23%;
+}
+#hzz6{
+    background-color: black;
+    width: 100%;
+    height: 790px;
+    position: absolute;
+    margin-top: 2630px;
+
+
+}
+.pos61{
+    margin-left: 40%;
+    margin-top: 15%;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+.pos613{
+    width:100%;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.buton3{
+    float: left;
+    width: 45%;
+    height: 50px;
+    background-color: rgba(71, 71, 71, 0.984);
+
+ 
+}
+.buton4{
+    margin-left: 17px;
+    float: left;
+
+    width: 50%;
+    height: 50px;
+    font-size: 13px;
+    font-weight: bolder;
+   
+}
+@media only screen and (max-width: 614px) {
+    .buton4{
+        margin-left: 0px;
+        width: 50%;
+        height: 50px;
+ 
+    }
+}
+.textyour{
+    text-align: left;
+    margin-left: -60px;
+    color: rgba(245, 245, 245, 0.57);
+}
+.textemail{
+    text-align: left;
+    margin-top: 5px;
+    color: orange;
+    font-weight:lighter;
+   
+}
+.nav2{
+
+    border-bottom: 1px solid white;
+    margin-top: 260px;
+    margin-left: -60%;
+}
+.nav2gambar{
+    float: right;
+    margin-top: -40px;
+    margin-right: -25%;
+}
+.nav2text{
+   font-size: 1.2vw;
+    width: 100%;
+  margin-bottom: 19px;
+  
+}
+.hz6gambar{
+    background-image: url("./assets/skull.png");
+    background-size: 100% 100%;
+    width: 30%;
+    height: 400px;
+    margin-top: -50px;
+    margin-left: -35%;
+    position:absolute;
+
+}
+.nav3text{
+    font-size: 1.2vw;
+    float: left;
+    margin-top: 5px;
+  
+}
+.nav3text a{
+    color: gray;
+  
+}
+.nav4text{
+    font-size: 1.2vw;
+    margin-top: 5px;
+    float: right;
+}
+
+/* @media only screen and (max-width: 849px) {
+    .nav2text a{
+        font-size: 1vw;
+        font-weight: bolder;
+    }
+
+  } */

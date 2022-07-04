@@ -1,0 +1,138 @@
+body{
+    background-color: #9b835f;
+
+ }
+ #p1Batu{
+    background-image: url('./asetgame/batu.png');
+    background-size: 100% 100%;
+    width: 7vw;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#p1Batu:hover{
+    background-color: rgba(1, 30, 59, 0.486) /*!important*/;
+    border-radius: 15px;
+}
+#p1Gunting{
+    background-image: url(./asetgame/gunting.png);
+    background-size: 100% 100%;
+    width: 7vw;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#p1Gunting:hover{
+    background-color: rgba(1, 30, 59, 0.486) /*!important*/;
+    border-radius: 15px;
+}
+#p1Kertas{
+    background-image: url(./asetgame/kertas.png);
+    background-size: 100% 100%;
+    width: 7vw;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#p1Kertas:hover{
+    background-color: rgba(1, 30, 59, 0.486) /*!important*/;
+    border-radius: 15px;
+}
+/* .player1{
+    
+
+}
+.player2{
+  
+
+} */
+#botBatu{
+    background-image: url(./asetgame/batu.png);
+    background-size: 100% 100%;
+    width: 7vw;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: wait;
+}
+#botGunting{
+    background-image: url(./asetgame/gunting.png);
+    background-size: 100% 100%;
+    width: 7vw;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: wait;
+}
+#botKertas{
+    background-image: url(./asetgame/kertas.png);
+    background-size: 100% 100%;
+    width: 7vw;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: wait;
+}
+#refresh{
+    background-image: url(./asetgame/refresh.png);
+    background-size: 100% 100%;
+    width: 7vw;
+    height: 70px;
+    margin-left: 28%;
+    cursor: pointer;
+}
+#refresh:hover{
+   transform:rotate(-30deg);
+}
+
+#pemenang{
+    font-size: 5vw;
+    color: #bd0102;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -250px;
+    text-align: center;
+    font-weight:bold;
+}
+.game1{
+   margin-top: 90px;
+   margin-left: 10%;
+}
+.pemain11{
+    width: 40vw;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -50px;
+      margin-left: 5%;
+      display: inline-block;
+}
+.com{
+    width: 40vw;
+    margin-top: -50px;
+    margin-left: 33%;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+}
+.tombolKembali{
+    font-size: 50px;
+    color: #6b481e;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.tulisanLogo{
+    display: inline;
+    font-size: 3vh;
+    color : #f6b23c;
+    margin-left: 8%;
+        position: absolute;
+        margin-top: 19px;
+}
+.logo{
+    display: inline-block;
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 8px;
+    background-image: url(./asetgame/logo2.png);
+    background-size: 100% 100%;
+    width: 4vw;
+    height: 40px;
+
+}
