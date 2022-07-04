@@ -2,7 +2,7 @@
 //    
     
 // }];
-const userList = [{
+const userList = [{ //DATA USER YG SUDAH ADA
     id: "1",
     nama: "greiq",
     password: "12345"
@@ -20,12 +20,6 @@ const getUsers = (req, res) =>{
     return res.send(userList);
 };
 const createUsers = (req, res) =>{
-    // const userId = 1;
-    // const user = {
-    //     id: userId,
-    //     nama: "username",
-    //     password: "password",
-    // }
     return res.send('Create users');
 };
 const readUsers = (req, res) =>{
