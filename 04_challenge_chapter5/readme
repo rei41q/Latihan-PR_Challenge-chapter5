@@ -1,3 +1,3 @@
 1. Nodemon global location (port 8000)
 2. list data login menggunakan http://localhost:8000/login/list
-3. untuk login, metode POST menggunakan variable id, nama dan password. 
+3. untuk login, menggunakan metode POST http://localhost:8000/login dengan variable id, nama dan password. 
