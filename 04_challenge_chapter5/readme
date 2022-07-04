@@ -1,4 +1,5 @@
 1. untuk menjalankan, npm start / nodemon "nama file" (ket: Nodemon global location (port 8000))
 2. list data login menggunakan http://localhost:8000/login/list
 3. untuk login, menggunakan metode POST http://localhost:8000/login dengan variable id, nama dan password. 
-
+4. tampilan web http://localhost:8000
+5. tampilan game http://localhost:8000/tampilangame / KLIK PLAY

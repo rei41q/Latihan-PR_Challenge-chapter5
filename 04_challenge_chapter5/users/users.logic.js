@@ -20,22 +20,22 @@ userRouter.post('/login', (req,res)=> { // LOGIN
     return res.send("gagal login, username/password salah")
   })
 
-userRouter.post('/users/daftarakun', function(req, res, next) { //DAFTAR AKUN
-    const id = userList.length + 1 ;
-    const user = req.body['nama'];
-    const pass = req.body['password'];
-    userList.push({"id": id, "nama" : user, "password": pass})
-    return res.send("berhasil daftar akun")
-  });
+// userRouter.post('/users/daftarakun', function(req, res, next) { //DAFTAR AKUN
+//     const id = userList.length + 1 ;
+//     const user = req.body['nama'];
+//     const pass = req.body['password'];
+//     userList.push({"id": id, "nama" : user, "password": pass})
+//     return res.send("berhasil daftar akun")
+//   });
 
   userRouter.get('/login/list', (req,res)=> { // LIST SEMUA YG SDH DIDAFTARKAN
     return res.json(userList);
   })
 
-  userRouter.get("/users/:userID", (req,res) =>{ //GET 1 USER BERDASARKAN ID 1,2,3,4...
-    const index = req.params.userID;
-    return res.json(userList[index-1]);
-});
+//   userRouter.get("/users/:userID", (req,res) =>{ //GET 1 USER BERDASARKAN ID 1,2,3,4...
+//     const index = req.params.userID;
+//     return res.json(userList[index-1]);
+// });
   
 // userRouter.put("/Users/:userID", (req,res) =>{ //UPDATE USER BERDASARKAN ID 1,2,3,4...
     // const index = req.params.userID-1;
