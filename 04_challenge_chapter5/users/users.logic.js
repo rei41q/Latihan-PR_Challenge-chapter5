@@ -14,10 +14,16 @@ userRouter.post('/login', (req,res)=> { // LOGIN
     password = req.body['password'];
     for(let i = 0 ; i<userList.length ; i++){
         if(userList[i].id == id && userList[i].nama == nama && userList[i].password == password){
-               return res.send("berhasil login")
+          res.status (200);
+          return res.json({
+              message: "Berhasil login"
+          })
         }
     }
-    return res.send("gagal login, username/password salah")
+    res.status (400);
+    return res.json({
+        message: "gagal login, username/password salah"
+    })
   })
 
 // userRouter.post('/users/daftarakun', function(req, res, next) { //DAFTAR AKUN
