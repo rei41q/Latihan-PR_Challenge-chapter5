@@ -10,11 +10,11 @@ const port = 8000
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname + '/index.html'))
+   return res.sendFile(path.join(__dirname + '/index.html'))
 })
 
 app.get('/tampilangame', function(req, res){
-    res.sendFile(path.join(__dirname + '/public/tampilangame.html'))
+    return res.sendFile(path.join(__dirname + '/public/tampilangame.html'))
 })
 
 // app.set('view engine','ejs')
