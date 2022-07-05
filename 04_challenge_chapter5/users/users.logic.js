@@ -22,7 +22,7 @@ userRouter.post('/login', (req,res)=> { // LOGIN
     }
     res.status (400);
     return res.json({
-        message: "gagal login, username/password salah"
+        message: "gagal login, ID/username/password salah"
     })
   })
 
